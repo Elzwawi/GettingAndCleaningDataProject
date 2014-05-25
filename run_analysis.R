@@ -36,7 +36,7 @@ names(mLabel) <- "activity"
 # Step4. Appropriately labels the data set with descriptive activity # names.
 names(mSubject) <- "subject"              # creating labels for the subjects
 cleanedData <- cbind(mSubject, mLabel, mData)   # merging data, subjects and labels
-write.table(cleanedData, "merged_data.txt") # wrting out the first dataset
+write.table(cleanedData, "merged_data.txt") # writing out the first dataset
 
 # Step5. Creating a second tidy data set with the average of each variable for each activity and each subject.
 subjectLength <- length(table(mSubject)) 
