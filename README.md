@@ -1,4 +1,4 @@
-## The readme file describes briefly how run_analysis.R script works 
+### The readme file describes briefly how run_analysis.R script works 
 
 * Download and unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "data".
 * The "data" folder and run_analysis.R script should be in the same working directory in order for the script to work.
